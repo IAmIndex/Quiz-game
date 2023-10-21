@@ -1,0 +1,18 @@
+.card {
+    border: var(--card-border);
+    border-radius: var(--card-border-radius);
+    text-align: center;
+    padding: 0;
+    width: 75%;
+    margin: auto;
+}
+
+.card-body {
+    border-top: var(--card-border);
+    border-bottom: var(--card-border);
+    padding: 2%;
+}
+
+.card-header {
+    padding: 2% 1%;
+}
