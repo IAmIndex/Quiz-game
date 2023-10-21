@@ -1,0 +1,36 @@
+@import 'properties.css';
+
+body {
+    background-color: #fbfbfb;
+    color: #0e0e0e;
+}
+
+.card {
+    border: var(--card-border);
+    border-radius: var(--card-border-radius);
+    text-align: center;
+    padding: 0;
+    width: 50%;
+}
+
+.card-body {
+    border-top: var(--card-border);
+    border-bottom: var(--card-border);
+    padding: 2%;
+}
+
+.card-header {
+    padding: 2% 1%;
+}
+
+.content-card {
+    background: linear-gradient(71deg, #e4e4e4, #fbfbfb, #e4e4e4);
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* color: var(--content-card-border-color); */
+    border-radius: 5px;
+    margin: 5% 3%;
+    padding: 5%;
+    position: relative;
+}

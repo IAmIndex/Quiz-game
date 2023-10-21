@@ -1,3 +1,20 @@
 :root {
+    /* Defaults */
+    --default-bg-image: url('../images/defaultBackground.png');
+    --default-font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+    /* Colors */
+    --blue: #09a7f6;
+    --green: #09f60d;
+    --yellow: #e6e90b;
+
+    /* Cards */
+    --card-border: 1px solid lightgray;
+    --card-border-radius: 5px;
+    --card-image-max-width: 100%;
+
+    /* Content cards */
+    --content-card-border-color: #00ff00;/*rgb(0, 89, 255);*/
+    --content-card-border: 71deg, #0d0, var(--content-card-border-color), #0d0;
+
 }
