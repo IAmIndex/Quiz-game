@@ -9,8 +9,7 @@ const closingBtn = document.getElementById("closeModalBtn");
 let seenQuestions = {"theme-1":[],"theme-2":[],"theme-3":[],"theme-4":[]};
 
 let configsJsonFile;
-//  fetch('https://iamindex.github.io/Quiz-game/json/questions.json')
-    fetch('../json/questions.json')
+fetch('https://iamindex.github.io/Quiz-game/json/questions.json')
     .then( (response)=> {return response.json()} )
     .then(json=> configsJsonFile=json);
 
