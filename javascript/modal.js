@@ -6,10 +6,29 @@ const modalFooter = document.getElementById("card-footer");
 const openingBtns = document.getElementsByClassName("btn-question-gen");
 const closingBtn = document.getElementById("closeModalBtn");
 
+let seenQuestions = {"theme-1":[],"theme-2":[],"theme-3":[],"theme-4":[]};
+
 let configsJsonFile;
- fetch('https://iamindex.github.io/Quiz-game/json/questions.json')
+//  fetch('https://iamindex.github.io/Quiz-game/json/questions.json')
+    fetch('../json/questions.json')
     .then( (response)=> {return response.json()} )
     .then(json=> configsJsonFile=json);
+
+const fetchQuestion = (theme,questionsArray) => {
+    const randomNumber = Math.floor(Math.random()*questionsArray.length); //Random number for an element from the array
+    const randomQuestion = questionsArray[randomNumber];
+    
+    if (seenQuestions[theme].length == 10) { //If all questions were chosen, clear the array and restart
+        seenQuestions[theme].splice(0,seenQuestions[theme].length);
+        seenQuestions[theme].push(randomQuestion)
+        return {"question":randomQuestion,"usedNumber":randomNumber}; 
+    } else if (seenQuestions[theme].includes(randomQuestion)) {
+        return fetchQuestion(theme,questionsArray);
+    } else {
+        seenQuestions[theme].push(randomQuestion)
+        return {"question":randomQuestion,"usedNumber":randomNumber};
+    }
+}
 
 const openModal = (e) => {
     //Cleaning the modals
@@ -23,25 +42,26 @@ const openModal = (e) => {
 
     //From JSON file
     let questionsArray = theme.questions;
-    let answersArray = shuffle(theme.answers);
+    let answersArray = theme.answers;
     let difficultiesArray = theme.difficulty;
 
+    const generatedRandoms = fetchQuestion(buttonThemeNumber,questionsArray); //Random element an number
+    const randomNumber = generatedRandoms.usedNumber; //Random number
     //Header
-    const randomNumber = Math.floor(Math.random()*questionsArray.length); //Random number for an element from the array
-    const randomQuestion = questionsArray[randomNumber]; //Random element from the array
+    const randomQuestion = generatedRandoms.question; //Random element from the array
     modalHeader.innerHTML = "<span class='close' onclick=\"document.getElementById('mainModal').style.display = 'none'\">&times;</span><h3>"+randomQuestion+"</h3>"; //Displays it
     
     //Body
     const pattern = /^\=/; //Pattern to the right answer
-    answersArray = answersArray[randomNumber]; //Respective answers to question
+    answersArray = shuffle(answersArray[randomNumber]); //Respective answers to question
     for (let i=0;i<answersArray.length;i++) {
         let answer = answersArray[i]
         if (pattern.test(answersArray[i])) { //If is the correct answer
             answer = answer.slice(1);
-            modalBody.innerHTML += "<p class='answer'>"+answer+"</p><br>"; //Displays it
+            modalBody.innerHTML += "<p class='answer'>"+(i+1)+". "+answer+"</p><br>"; //Displays it
             continue;
         }
-        modalBody.innerHTML += "<p class='answer-wrong'>"+answer+"</p><br>"; //Displays it
+        modalBody.innerHTML += "<p class='answer-wrong'>"+(i+1)+". "+answer+"</p><br>"; //Displays it
     }
 
     //Footer
@@ -62,8 +82,7 @@ function shuffle(array) {
       currentIndex--;
   
       // And swap it with the current element
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex], array[currentIndex]];
+      [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
     }
   
     return array;
