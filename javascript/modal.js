@@ -29,7 +29,7 @@ const openModal = (e) => {
     //Header
     const randomNumber = Math.floor(Math.random()*questionsArray.length); //Random number for an element from the array
     const randomQuestion = questionsArray[randomNumber]; //Random element from the array
-    modalHeader.innerHTML = "<span class='close' id='closeModalBtn'>&times;</span><h3>"+randomQuestion+"</h3>"; //Displays it
+    modalHeader.innerHTML = "<span class='close' onclick=\"document.getElementById('mainModal').style.display = 'none'\">&times;</span><h3>"+randomQuestion+"</h3>"; //Displays it
     
     //Body
     const pattern = /^\=/; //Pattern to the right answer
@@ -46,7 +46,7 @@ const openModal = (e) => {
 
     //Footer
     const randomDifficulty = difficultiesArray[randomNumber]; //Random element from the array
-    modalFooter.innerHTML = "<span class='close' id='closeModalBtn'>&times;</span><h3>"+randomDifficulty+"</h3>"; //Displays it
+    modalFooter.innerHTML = "<h3>"+randomDifficulty+"</h3>"; //Displays it
 
     modal.style.display = "block"; //Displays modal
 }
@@ -72,10 +72,6 @@ function shuffle(array) {
 for (let i=0;i<openingBtns.length;i++) {
     let currButton = openingBtns[i];
     currButton.addEventListener('click',openModal);
-}
-
-closingBtn.onclick = () => {
-    modal.style.display = "none";
 }
 
 window.onclick = (event) => {

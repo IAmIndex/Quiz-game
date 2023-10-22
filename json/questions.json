@@ -1,77 +1,235 @@
 {
     "theme-1": {
         "questions": [
-            "Pergunta 1",
-            "Pergunta 2"
+            "Qual foi o período de tempo em que a Guerra Fria ocorreu?",
+            "Quais duas superpotências estiveram envolvidas na Guerra Fria?",
+            "Qual foi o principal conflito que marcou a Guerra Fria e dividiu a Alemanha em duas",
+            "O que foi a Doutrina Truman na política externa dos Estados Unidos durante a Guerra Fria?",
+            "O que aconteceu durante a Crise dos Mísseis em Cuba em 1962?",
+            "O Plano Marshall foi uma iniciativa dos Estados Unidos durante a Guerra Fria. O que buscava realizar?",
+            "O que foi a corrida armamentista na Guerra Fria?",
+            "Qual foi a principal razão para a construção do Muro de Berlim?",
+            "Quem foi o líder soviético durante a maior parte da Guerra Fria?",
+            "O que representou a queda do Muro de Berlim em 1989 para o desfecho da Guerra Fria?"
         ],
         "answers": [
             [
-                "Resposta 1",
-                "Resposta 2",
-                "Resposta 3",
-                "=Resposta 4",
-                "Resposta 5"
+                "A Guerra Fria foi travada com armas quentes",
+                "=A Guerra Fria ocorreu de 1947-1991",
+                "A Guerra Fria foi uma guerra militar",
+                "A Guerra Fria começou em 1776",
+                "A Guerra Fria começou em 1914"
             ],
             [
-                "=Resposta 1",
-                "Resposta 2",
-                "Resposta 3",
-                "Resposta 4",
-                "Resposta 5"
+                "A Guerra Fria foi entre a Alemanha e o Japão",
+                "A Guerra Fria envolveu o Brasil e a Argentina",
+                "=A Guerra Fria envolveu os Estados Unidos e União Soviética",
+                "A Guerra Fria ocorreu entre a China e a Índia",
+                "A Guerra Fria foi entre a França e o Reino Unido"
 
+            ],
+            [
+                "A Guerra Fria resultou na divisão da China",
+                "=A Guerra Fria resultou na divisão da Alemanha",
+                "A Guerra Fria causou a divisão da Itália",
+                "A Guerra Fria levou à divisão do Canadá",
+                "A Guerra Fria levou à divisão do Brasil"
+            ],
+            [
+                "=A Doutrina Truman era uma política de contenção do comunismo",
+                "A Doutrina Truman visava promover o comunismo",
+                "A Doutrina Truman era um plano para unificar a Alemanha",
+                "A Doutrina Truman foi um acordo de desarmamento",
+                "A Doutrina Truman era um plano de ajuda militar à União Soviética"
+            ],
+            [
+                "A Crise dos Mísseis ocorreu na Coreia",
+                "A Crise dos Mísseis foi uma guerra nuclear",
+                "=Os Estados Unidos descobriram mísseis soviéticos em Cuba",
+                "A Crise dos Mísseis levou à independência de Cuba",
+                "A Crise dos Mísseis resultou na reunificação da Alemanha"
+            ],
+            [
+                "O Plano Marshall visava promover o comunismo",
+                "=O Plano Marshall buscava fornecer ajuda econômica para a reconstrução da Europa pós-Segunda Guerra Mundial",
+                "O Plano Marshall era um plano de ocupação militar na Europa",
+                "O Plano Marshall era um plano de desarmamento",
+                "O Plano Marshall era um acordo de comércio com a União Soviética"
+            ],
+            [
+                "A corrida armamentista visava a redução das armas",
+                "=A corrida armamentista era uma competição entre Estados Unidos e União Soviética para desenvolver armas nucleares",
+                "A corrida armamentista levou à paz mundial",
+                "A corrida armamentista foi uma competição esportiva entre os países",
+                "A corrida armamentista foi uma aliança militar entre os países da OTAN"
+            ],
+            [
+                "O Muro de Berlim foi construído para unificar a Alemanha",
+                "O Muro de Berlim foi construído para promover o turismo",
+                "O Muro de Berlim foi construído para dividir a Itália",
+                "=O Muro de Berlim foi construído para prevenir que as pessoas do leste fugissem para o oeste",
+                "O Muro de Berlim foi construído para promover o comércio"
+            ],
+            [
+                "O líder soviético era Winston Churchill",
+                "O líder soviético era Franklin D. Roosevelt",
+                "=O líder soviético era Joseph Stalin",
+                "O líder soviético era Mao Zedong",
+                "O líder soviético era Fidel Castro"
+            ],
+            [
+                "A queda do Muro de Berlim resultou na divisão da Alemanha",
+                "A queda do Muro de Berlim não teve impacto na Guerra Fria",
+                "A queda do Muro de Berlim levou à guerra nuclear",
+                "=A queda do Muro de Berlim foi o fim simbólico da Guerra Fria",
+                "A queda do Muro de Berlim levou à criação de um novo muro"
             ]
         ],
         "difficulty": [
             "Fácil",
-            "Difícil"
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Fácil",
+            "Médio",
+            "Médio",
+            "Fácil",
+            "Médio"
         ]
     },
     "theme-2": {
         "questions": [
-
+            "Qual é o principal critério para a classificação dos domínios morfoclimáticos?",
+            "O Cerrado é um domínio morfoclimático brasileiro. Qual é a principal característica desse domínio?",
+            "O Pantanal é um exemplo de qual domínio morfoclimático brasileiro?",
+            "O semiárido nordestino é uma característica de qual domínio morfoclimático?",
+            "Quais são as principais características do domínio morfoclimático Amazônico?",
+            "O domínio morfoclimático dos Mares de Morros é encontrado em que região do Brasil?",
+            "Qual é a vegetação predominante no domínio morfoclimático das Araucárias?",
+            "O Sertão é um domínio morfoclimático comum em qual região do Brasil?",
+            "O domínio morfoclimático do Agreste é encontrado em qual região do Brasil?",
+            "Quais características definem o domínio morfoclimático das Caatingas?"
         ],
         "answers": [
             [
-
+                "A presença de características naturais, como clima, vegetação e relevo.", "A população local.", "=Clima, vegetação e relevo.", "A economia regional."
             ],
             [
-
+                "Mangues e restingas.", "=Predomínio de vegetação de cerrado e clima tropical.", "Floresta Amazônica.", "Pantanal."
+            ],
+            [
+                "Pantanal.", "Caatinga.", "Manguezais.", "=Cerrado."
+            ],
+            [
+                "Cerrado.", "Mata Atlântica.", "Pampas.", "=Caatinga."
+            ],
+            [
+                "Grandes áreas de floresta tropical, clima quente e úmido.", "Relevo montanhoso e clima temperado.", "Predomínio de campos e clima subtropical.", "=Vegetação exuberante e clima equatorial."
+            ],
+            [
+                "Região Norte.", "Região Sul.", "=Região Sudeste.", "Região Nordeste."
+            ],
+            [
+                "Caatinga.", "Mata Atlântica.", "=Floresta de araucárias.", "Cerrado."
+            ],
+            [
+                "Região Norte.", "Região Nordeste.", "=Região Nordeste.", "Região Sul."
+            ],
+            [
+                "Região Sul.", "Região Nordeste.", "=Região Nordeste.", "Região Norte."
+            ],
+            [
+                "Vegetação xerófila e clima semiárido.", "=Predomínio de caatinga, clima semiárido e altas temperaturas.", "Clima equatorial e floresta amazônica.", "Relevo montanhoso e clima subtropical."
             ]
         ],
         "difficulty": [
-            
+            "Médio",
+            "Médio",
+            "Fácil",
+            "Médio",
+            "Difícil",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio"
         ]
     },
     "theme-3": {
         "questions": [
-
+            "O que é uma formação ambiental?",
+            "Qual é o bioma que abrange a maior parte do território brasileiro?",
+            "Quais são as principais características da Caatinga?",
+            "O Cerrado é um bioma tipicamente encontrado em qual região do Brasil?",
+            "Quais são as características do bioma Pantanal?",
+            "O Pampa é um bioma brasileiro que compartilha fronteiras com qual país?",
+            "Qual é o bioma brasileiro que é considerado a maior floresta tropical do mundo?",
+            "A Mata Atlântica é um bioma rico em biodiversidade, mas também altamente ameaçado. O que contribui para essa ameaça?",
+            "O bioma Amazônico é conhecido por sua diversidade. Quantas espécies diferentes de árvores são encontradas na Amazônia?",
+            "Onde o bioma de Caatinga é encontrado principalmente no Brasil?"
         ],
         "answers": [
-            [
-
-            ],
-            [
-
-            ]
+            ["Uma área geograficamente definida com características naturais específicas, como clima, vegetação e relevo.", "=Uma área geograficamente definida com características naturais específicas, como clima, vegetação e relevo.", "Uma área urbana com alta densidade populacional.", "Uma formação musical ao ar livre."],
+            ["Cerrado.", "Caatinga.", "=Mata Atlântica.", "Amazônia."],
+            ["Vegetação xerófila, clima semiárido e altas temperaturas.", "=Predomínio de caatinga, clima semiárido e altas temperaturas.", "Floresta Amazônica.", "Mata Atlântica."],
+            ["Região Norte.", "=Região Centro-Oeste.", "Região Sul.", "Região Nordeste."],
+            ["Inundações sazonais, grande diversidade de aves e animais aquáticos.", "Predomínio de savanas.", "=Inundações sazonais, grande diversidade de aves e animais aquáticos.", "Clima equatorial e floresta tropical."],
+            ["Argentina.", "Chile.", "=Uruguai.", "Paraguai."],
+            ["Mata Atlântica.", "=Amazônia.", "Cerrado.", "Caatinga."],
+            ["Desmatamento e urbanização.", "=Desmatamento e urbanização.", "Proteção eficaz das áreas remanescentes.", "Clima estável."],
+            ["Cerca de 16.000 espécies diferentes de árvores.", "Cerca de 500 espécies diferentes de árvores.", "=Cerca de 16.000 espécies diferentes de árvores.", "Cerca de 100 espécies diferentes de árvores."],
+            ["Região Nordeste.", "=Região Nordeste.", "Região Sul.", "Região Norte."]
         ],
         "difficulty": [
-            
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Médio",
+            "Difícil",
+            "Difícil",
+            "Médio"
         ]
     },
     "theme-4": {
         "questions": [
-
+            "Qual evento marcou o início da Segunda Guerra Mundial?",
+            "Quais países formavam o Eixo na Segunda Guerra Mundial?",
+            "Quais foram as potências do Eixo no Pacífico?",
+            "O que foi o Dia D?",
+            "Qual país sofreu o ataque surpresa aéreo a Pearl Harbor em 1941?",
+            "Qual foi o resultado da Batalha de Stalingrado?",
+            "O que foi o Holocausto?",
+            "Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?",
+            "Quando a Segunda Guerra Mundial terminou oficialmente na Europa?",
+            "Onde os julgamentos de Nuremberg foram realizados após o fim da guerra?"
         ],
         "answers": [
-            [
-
-            ],
-            [
-
-            ]
+            ["A rendição da França.", "=A invasão da Polônia pela Alemanha em 1º de setembro de 1939.", "A Revolução Russa.", "A assinatura do Tratado de Versalhes.", "O ataque a Pearl Harbor."],
+            ["Reino Unido, França e Estados Unidos.", "Brasil, Argentina e Chile.", "Canadá, Austrália e Índia.", "=Alemanha, Itália e Japão.", "Rússia, China e Índia."],
+            ["Canadá, Austrália e Índia.", "Espanha, Portugal e Suíça.", "=Japão, Alemanha e Itália.", "Reino Unido, Estados Unidos e França.", "Rússia, China e Índia."],
+            ["A União Soviética entrou na guerra.", "=O dia em que as forças aliadas desembarcaram na Normandia, França, para iniciar a libertação da Europa do domínio nazista.", "O dia em que a Itália se rendeu aos Aliados.", "O dia em que a Alemanha se rendeu na Segunda Guerra Mundial.", "O dia em que o Japão atacou Pearl Harbor."],
+            ["=Japão.", "Estados Unidos.", "Itália.", "Alemanha.", "Reino Unido."],
+            ["=Uma vitória decisiva para os soviéticos e um ponto de virada na guerra.", "Uma vitória decisiva para as forças alemãs.", "Uma batalha aérea sem resultado claro.", "Uma batalha naval no Pacífico.", "Um empate inconclusivo."],
+            ["A batalha de Berlim.", "=O genocídio que resultou na morte de milhões de judeus e outras minorias étnicas pelos nazistas.", "Uma batalha naval na costa dos Estados Unidos.", "A rendição do Japão.", "A tomada de Paris pelos Aliados."],
+            ["Winston Churchill.", "=Joseph Stalin.", "Adolf Hitler.", "Franklin D. Roosevelt.", "Benito Mussolini."],
+            ["5 de maio de 1945.", "6 de junho de 1944.", "15 de agosto de 1945.", "7 de dezembro de 1941.", "=8 de maio de 1945."],
+            ["Em Paris, França.", "Em Nuremberg, Alemanha.", "Em Varsóvia, Polônia.", "=Em Nuremberg, Alemanha.", "Em Berlim, Alemanha."]
         ],
         "difficulty": [
-            
+            "Médio",
+            "Médio",
+            "Médio",
+            "Difícil",
+            "Médio",
+            "Difícil",
+            "Difícil",
+            "Médio",
+            "Médio",
+            "Médio"
         ]
     }
 }
