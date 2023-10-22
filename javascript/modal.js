@@ -7,7 +7,7 @@ const openingBtns = document.getElementsByClassName("btn-question-gen");
 const closingBtn = document.getElementById("closeModalBtn");
 
 let configsJsonFile;
- fetch('../json/questions.json')
+ fetch('https://iamindex.github.io/json/questions.json')
     .then( (response)=> {return response.json()} )
     .then(json=> configsJsonFile=json);
 
