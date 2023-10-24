@@ -23,7 +23,7 @@
             ["=A divisão ideológica e física da Europa entre o leste comunista e o oeste capitalista, simbolizada pelo Muro de Berlim.", "Um plano para aumentar a produção de aço na Europa.", "Um tratado de paz entre os Estados Unidos e a União Soviética.", "Uma estratégia de espionagem da CIA.", "Um acordo comercial entre os Estados Unidos e a China."],
             ["=O posicionamento de mísseis nucleares soviéticos em Cuba e a subsequente crise que quase levou a uma guerra nuclear.", "A corrida espacial entre Estados Unidos e União Soviética.", "O bloqueio naval de Cuba pelos Estados Unidos.", "A revolta dos cubanos contra Fidel Castro.", "A queda do Muro de Berlim."],
             ["=Os líderes eram John F. Kennedy (EUA) e Nikita Khrushchev (URSS).", "Os líderes eram Ronald Reagan (EUA) e Mikhail Gorbachev (URSS).", "Os líderes eram Franklin D. Roosevelt (EUA) e Josef Stalin (URSS).", "Os líderes eram Winston Churchill (Reino Unido) e Charles de Gaulle (França).", "Os líderes eram Adolf Hitler (Alemanha) e Benito Mussolini (Itália)."],
-            ["=Uma política dos Estados Unidos para conter a expansão do comunismo, incluindo ajuda econômica e apoio militar a países ameaçados pelo comunismo.", "Um plano de espionagem soviética.", "Um programa espacial conjunto entre os Estados Unidos e a União Soviética.", "Uma estratégia de ataque nuclear preventivo.", "Uma proposta de desarmamento total."],
+            ["=Uma política dos Estados Unidos para conter a expansão do comunismo.", "Um plano de espionagem soviética.", "Um programa espacial conjunto entre os Estados Unidos e a União Soviética.", "Uma estratégia de ataque nuclear preventivo.", "Uma proposta de desarmamento total."],
             ["=Doutrina Truman.", "Plano Marshall.", "Plano Containment.", "Tratado de Não Proliferação Nuclear.", "Plano de Stalinegrado."]
         ],
         "difficulty": [
@@ -55,16 +55,16 @@
             "Qual domínio morfoclimático abrange a maior parte do território brasileiro?"
         ],
         "answers": [
-            ["=São grandes regiões do território brasileiro que compartilham características físicas e climáticas semelhantes.", "São montanhas no interior do Brasil.", "São os estados brasileiros.", "São lagos e lagoas."],
+            ["=São grandes regiões do território brasileiro que compartilham características físicas e climáticas semelhantes.", "São montanhas no interior do Brasil.", "São os estados brasileiros.", "São lagos e lagoas.","São pequenas, porém diversas regiões do território brasileiro que compartilham características físicas e climáticas semelhantes."],
             ["Manguezal.", "=Pantanal.", "Cerrado.", "Caatinga.", "Mata Atlântica."],
             ["No sul do Brasil.", "Na Região Amazônica.", "=No Nordeste brasileiro.", "No Centro-Oeste do Brasil.", "No extremo norte do Brasil."],
             ["Floresta densa, estação seca bem definida, solo ácido e rica biodiversidade.", "Deserto, solo seco e quente, vegetação esparsa.", "=Vegetação de savana, com árvores espalhadas e presença de cerrados e campos.", "Mata ciliar, solos férteis e grande diversidade de animais aquáticos.", "Área urbana, com construções e poluição."],
-            ["=Ambientes litorâneos, com influência das marés e presença de mangues.", "Cavernas subterrâneas.", "Deserto quente e seco.", "Tundras frias.", "Floresta Amazônica."],
+            ["=Ambientes litorâneos, com influência das marés e presença de mangues.", "Cavernas subterrâneas.", "Deserto quente e seco.", "Tundras frias.", "Floresta Amazônica, com influência da ação da água sobre as rochas."],
             
             ["=Cerrado.", "Mata Atlântica.", "Manguezal.", "Caatinga.", "Floresta Amazônica."],
             ["=Floresta de araucárias.", "Pantanal.", "Caatinga.", "Manguezal.", "Cerrado."],
             ["No sul do Brasil.", "Na Região Amazônica.", "No Nordeste brasileiro.", "=No Centro-Oeste do Brasil.", "No extremo norte do Brasil."],
-            ["=Um fator não vivo que influencia um ecossistema, como luz solar ou temperatura.", "Uma espécie em extinção.", "Uma planta carnívora.", "Um organismo unicelular.", "Um tipo de peixe."],
+            ["=Um fator não vivo que influencia um ecossistema, como luz solar ou temperatura.", "Um organismo unicelular.", "Um tipo de planta.", "Uma espécie de mamífero.", "Um fator não vivo que influencia um ecossistema, como plantas mortas ou carcaças de animais"],
             ["Floresta Amazônica.", "Pantanal.", "=Cerrado.", "Mata Atlântica.", "Caatinga."]
         ],
         "difficulty": [
@@ -75,7 +75,7 @@
             "Médio",
             "Médio",
             
-            "Médio",
+            "Fácil",
             "Médio",
             "Fácil",
             "Difícil",
@@ -88,7 +88,7 @@
             "Qual é o bioma brasileiro caracterizado por árvores altas, chuvas frequentes e alta biodiversidade?",
             "O que é uma espécie endêmica?",
             "Qual é o bioma brasileiro conhecido por sua vegetação de gramíneas e presença de fogo recorrente?",
-            "O que é um fator abiótico?",
+            "Qual é o bioma que se estende ao longo das regiões polares da Terra, caracterizado por temperaturas extremamente baixas, ventos fortes e uma cobertura de gelo constante?",
 
             "O que é um ecossistema?",
             "Qual é o maior bioma brasileiro?",
@@ -97,16 +97,16 @@
             "O que é um habitat?"
         ],
         "answers": [
-            ["=Um conjunto de comunidades bióticas que se desenvolvem em um ambiente específico.", "Uma região com clima extremo.", "Uma espécie de planta.", "Um tipo de solo.","Um outro nome para lugares de paisagem natural"],
+            ["=Um conjunto de comunidades bióticas que se desenvolvem em um ambiente específico.", "Uma região com clima extremo.", "Uma espécie de planta.", "Um tipo de solo.", "Um outro nome para lugares de paisagem natural"],
             ["Mata Atlântica.", "Cerrado.", "Pantanal.", "=Floresta Amazônica.", "Caatinga."],
             ["=Uma espécie que ocorre naturalmente apenas em uma região específica.", "Uma espécie de planta muito comum.", "Uma espécie de árvore.", "Uma espécie de peixe.", "Uma espécie que ocorre naturalmente em diversas regiões"],
             ["Mata Atlântica.", "Caatinga.", "Pantanal.", "=Cerrado.", "Manguezal."],
-            ["=Um fator não vivo que influencia um ecossistema, como luz solar ou temperatura.", "Um organismo unicelular.", "Um tipo de planta.", "Uma espécie de mamífero.", "Um fator não vivo que influencia um ecossistema, como plantas mortas ou carcaças de animais"],
+            ["Deserto", "Floresta Tropical", "Cerrado", "Savana", "=Tundra"],
 
             ["=Um sistema de interação entre seres vivos e o ambiente ao seu redor.", "Uma floresta tropical.", "Uma espécie de planta.", "Um tipo de solo.", "Um lugar em que as espécies vivem em harmonia"],
             ["=Amazônia.", "Cerrado.", "Mata Atlântica.", "Pantanal.", "Caatinga."],
             ["=Grandes áreas geográficas com características ecológicas semelhantes.", "Uma espécie de animal.", "Uma espécie de planta.", "Um tipo de solo.", "Um outro nome para uma paisagem natural composta somente por terra"],
-            ["Mata Atlântica.", "Cerrado.", "Caatinga.", "=Cerrado.", "Floresta Amazônica."],
+            ["Mata Atlântica.", "Sertão.", "Caatinga.", "=Cerrado.", "Floresta Amazônica."],
             ["=O lugar onde uma espécie vive e encontra comida, abrigo e parceiros para reprodução.", "Um tipo de planta.", "Uma espécie de animal.", "Uma região com muitas árvores.", "O cativeiro onde uma espécie vive e encontra comida, abrigos e parceiros para reprodução"]
         ],
         "difficulty": [
